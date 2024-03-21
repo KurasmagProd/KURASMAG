@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(105, 105, 105);
+}
+
+.navbar .logo{
+    width: 100px;
+    margin-top: 150px;
+    padding: 10px;
+}
+
+.logo1{
+    padding: 10px 10px;
+    border: none;
+}
+
+.logo1:hover img {
+    transition: transform  0.5s;
+    transform: scale(1.2);
+    transform: translateY(-15px);
+}
